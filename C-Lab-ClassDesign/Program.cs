@@ -10,11 +10,11 @@ namespace C_Lab_ClassDesign
 	{
 		static void Main(string[] args)
 		{
-			Class1 chem101 = new Class1(445, "Intro to Chemistry");
+			Class1 chem101 = new Class1(101, "Intro to Chemistry", "Smith");
 			Console.WriteLine(chem101.ToString());
 			Console.ReadLine();
 
-			Dog tuffy = new Dog("tuffy", "poodle", 5, "white");
+			Dog tuffy = new Dog("tuffy", "poodle", 5);
 			Console.WriteLine(tuffy.ToString());
 			Console.ReadLine();
 		}
