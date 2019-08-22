@@ -17,6 +17,10 @@ namespace C_Lab_ClassDesign
 			Dog tuffy = new Dog("tuffy", "poodle", 5);
 			Console.WriteLine(tuffy.ToString());
 			Console.ReadLine();
+
+			Autos suv1 = new Autos(2019, "Mazda", "CX-5");
+			Console.WriteLine(suv1.ToString());
+			Console.ReadLine();
 		}
 	}
 }
