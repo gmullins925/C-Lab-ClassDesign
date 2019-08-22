@@ -23,5 +23,10 @@ namespace C_Lab_ClassDesign
 		public string Name { get => name; set => name = value; }
 		public string Breed { get => breed; set => breed = value; }
 		public int Age { get => age; set => age = value; }
+
+		public override string ToString()
+		{
+			return name + " " + breed + " " + age;
+		}
 	}
 }

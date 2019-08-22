@@ -22,5 +22,10 @@ namespace C_Lab_ClassDesign
 		public int Year { get => year; set => year = value; }
 		public string Make { get => make; set => make = value; }
 		public string Model { get => model; set => model = value; }
+
+		public override string ToString()
+		{
+			return year + " " + make + " " + model;
+		}
 	}
 }

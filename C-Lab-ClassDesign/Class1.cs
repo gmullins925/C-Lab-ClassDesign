@@ -22,5 +22,10 @@ namespace C_Lab_ClassDesign
 		public int CourseID { get => courseID; set => courseID = value; }
 		public string CourseName { get => courseName; set => courseName = value; }
 		public string Teacher { get => teacher; set => teacher = value; }
+
+		public override string ToString()
+		{
+			return courseID + " " + courseName + " " + teacher;
+		}
 	}
 }
